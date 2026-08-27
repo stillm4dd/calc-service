@@ -1,0 +1,20 @@
+version = 1
+revision = 3
+requires-python = ">=3.9"
+
+[[package]]
+name = "calc-service"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "mathkitlite" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "mathkitlite", specifier = "==0.1.0" }]
+
+[[package]]
+name = "mathkitlite"
+version = "0.1.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/0f/64/b75bf2f7e926f49d92594bf84fba12f8cc65191b2bd029adb33a501c8d52/mathkitlite-0.1.0.tar.gz", hash = "sha256:a817957aca05d670e4943c709a0bbe62ba85bce115563df4fba62a00086e7ecf", size = 1263, upload-time = "2026-08-27T09:15:06.000Z" }

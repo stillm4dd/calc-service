@@ -1,0 +1,2 @@
+mathkitlite==0.1.0 \
+    --hash=sha256:a817957aca05d670e4943c709a0bbe62ba85bce115563df4fba62a00086e7ecf
